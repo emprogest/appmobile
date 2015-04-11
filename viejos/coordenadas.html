@@ -1,0 +1,8 @@
+$direccion_google = ‘Calle’;
+$resultado = file_get_contents(sprintf('https://maps.googleapis.com/maps/api/geocode/json?sensor=false&address=%s', urlencode($direccion_google)));
+$resultado = json_decode($resultado, TRUE);
+
+$lat = $resultado['results'][0]['geometry']['location']['lat'];
+$lng = $resultado['results'][0]['geometry']['location']['lng'];
+
+return "{$lat}, {$lng}";

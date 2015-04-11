@@ -1,0 +1,29 @@
+.form-element {
+  display: table-cell;
+    /*
+        box-sizing: border-box;
+    */
+}
+
+.textfield {
+    width:100%
+}
+
+.textfield > input {
+    width:100%
+}
+
+
+/*********************************
+This is just some styling.
+*********************************/
+form
+    {
+        background: purple;
+        padding:12px;
+    }
+
+input 
+    {
+        padding:10px;
+    }

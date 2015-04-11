@@ -1,0 +1,25 @@
+.tile1{
+    max-width: 900px;
+    min-width: 500px;
+    max-height: 40px;
+    min-height: 20px;
+    margin: 0 auto;
+    background-color: magenta;
+    float: left;
+}
+
+.tile2{
+    width: 170px;
+    height: 140px;
+    margin: 1px;
+    padding-top: 45px;
+    background-color: magenta;
+    float: left;
+}
+
+#main-container{
+    max-width: 900px;
+    min-width: 500px;
+    background-color: red;
+    margin: 0 auto;
+}
